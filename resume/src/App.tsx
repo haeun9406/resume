@@ -20,7 +20,6 @@ export default App;
 
 const Container = styled.div`
 box-sizing: border-box;
-width: 100vw;
 padding: 30px;
 background-color: #dee2e6;
 `;

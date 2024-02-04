@@ -63,6 +63,21 @@ display: flex;
 flex-direction: row;
 align-items: center;
 margin-bottom: 30px;
+
+@media screen and (max-width: 500px) {
+  flex-direction: column;
+
+  img {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  div {
+    align-items: center;
+    text-align: center;
+  }
+}
+
 `;
 
 const ProfileImg = styled.img`
